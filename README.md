@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] of absolute values is defined as
 ## Usage
 
 ```javascript
-import incrnanmeanabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmeanabs@esm/index.mjs';
+import incrnanmeanabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmeanabs@v0.1.1-esm/index.mjs';
 ```
 
 #### incrnanmeanabs()
@@ -125,7 +125,7 @@ mu = accumulator();
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import incrnanmeanabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmeanabs@esm/index.mjs';
+import incrnanmeanabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmeanabs@v0.1.1-esm/index.mjs';
 
 // Initialize an accumulator:
 var accumulator = incrnanmeanabs();
